@@ -3,76 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marlon Lacerda</title>
-    <link rel="stylesheet" href="C:\Users\aluno.laboratorio\Desktop\ProjetoC1_DevWebI-main\style.css">
+    <title>Portfólio - Marlon Lacerda</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="home" class="hero">
-        <div style="text-align: left; margin-left: 100px;">
-            <img src="./pngtree-beard-man-profile-male-people-png-image_5244020.png" alt="minhaFoto">
-        </div>
-        <div class="container">
-            <h1>Olá, sou Marlon Lacerda!</h1>
-            <p>Desenvolvedor Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>.</p>
-            <a href="#projetos" class="cta-button">Veja meus projetos</a>
-            <a href="#contato" class="cta-button">Entre em contato</a>
-        </div>
-    </section>
-
-    <section id="sobre" class="about">
-        <div class="container">
-            <h2>Sobre Mim</h2>
-            <p>
-                Sou estudante de Análise e Desenvolvimento de Sistemas e atualmente estou em um estágio na área de desenvolvimento de software, onde posso aplicar meus conhecimentos e aprender constantemente.<br>
-                Minha formação anterior como técnico em mecânica me proporcionou uma base sólida em raciocínio lógico e resolução de problemas, habilidades que são essenciais na área de tecnologia.<br><br>
-                Além da programação, sou apaixonado por esportes e acredito que a prática regular não só mantém meu corpo ativo, mas também me ensina disciplina e trabalho em equipe.
-                Gosto de fazer amigos e valorizar as relações pessoais, sempre buscando estar em contato com a natureza, que me inspira e renova minhas energias.<br><br>
-                Estou sempre em busca de novos desafios e oportunidades para crescer, tanto profissional quanto pessoalmente. Acredito que cada experiência contribui para minha formação como desenvolvedor e como ser humano.
-            </p>
-                
-        </div>
-    </section>
-
-    <section id="projetos" class="projects">
-        <div class="container">
-            <h2>Projetos</h2>
-            <p>Confira alguns dos meus projetos mais recentes:</p>
-            <!-- Lista de projetos -->
-        </div>
-    </section>
-
-    <section id="contato" class="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Para qualquer dúvida ou proposta, sinta-se à vontade para <a href="mailto:marlon.lacerda@example.com">me enviar um e-mail</a>.</p>
-            <p>Siga-me nas redes sociais:</p>
-            <ul>
-                <li><a href="#" target="_blank">LinkedIn</a></li>
-                <li><a href="#" target="_blank">GitHub</a></li>
-                <li><a href="#" target="_blank">Twitter</a></li>
-            </ul>
-            <div class="contact-info"></div>
-                <p><strong>Entre em Contato:</strong></p>
-                <ul>
-                    <li><a href="mailto:marlon.lacerda@example.com">marlon.lacerda@example.com</a></li>
-                    <li><a href="#" target="_blank">LinkedIn</a></li>
-                    <li><a href="#" target="_blank">GitHub</a></li>
-                    <li><a href="#" target="_blank">Twitter</a></li>
-                </ul>
+    <main>        
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Olá, sou Marlon Lacerda!</h1>
+                        <p>Desenvolvedor em processo de aprendizado e Estudante de Análise e Desenvolvimento de Sistemas.</p>
+                        <div class="cta-buttons">
+                            <a href="#projetos" class="cta-button">Veja meus projetos</a>
+                            <a href="#contato" class="cta-button secondary">Entre em contato</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="./imagens/minhaFoto.jfif" alt="Marlon Lacerda">
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section id="sobre" class="about">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou estudante de Análise e Desenvolvimento de Sistemas e atualmente estou em um estágio na área de desenvolvimento de software, onde posso aplicar meus conhecimentos e aprender constantemente.
+                </p>
+                <p>
+                    Minha formação anterior como técnico em mecânica me proporcionou uma base sólida em raciocínio lógico e resolução de problemas, habilidades que são essenciais na área de tecnologia.
+                </p>
+                <p>
+                    Além da programação, sou apaixonado por esportes e acredito que a prática regular não só mantém meu corpo ativo, mas também me ensina disciplina e trabalho em equipe.
+                    Gosto de fazer amigos e valorizar as relações pessoais, sempre buscando estar em contato com a natureza, que me inspira e renova minhas energias.
+                </p>
+                <p>
+                    Estou sempre em busca de novos desafios e oportunidades para crescer, tanto profissional quanto pessoalmente. Acredito que cada experiência contribui para minha formação como desenvolvedor e como ser humano.
+                </p>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="tecnology">
+            <div class="container">
+                <h2>Tecnologias em aprendizado</h2>
+                <p>Essas são as tecnologias que adquiri conhecimento e experiência durante minha carreira através da vida acadêmica, estágio e interesse próprio.</p>
+                
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <img src="./imagens/c.png" alt="C#" class="tech-icon">
+                        <span>C#</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="./imagens/asp.png" alt="ASP.NET" class="tech-icon">
+                        <span>ASP.NET</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="./imagens/sql.png" alt="SQLServer" class="tech-icon">
+                        <span>SQLServer</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="./imagens/html.png" alt="HTML5" class="tech-icon">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <img src="./imagens/css.png" alt="CSS3" class="tech-icon">
+                        <span>CSS3</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <div class="container">
+                <h2>Projetos</h2>
+                <p>Confira alguns dos meus projetos mais recentes:</p>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="./imagens/xadrez.jpg" alt="Projeto Jogo de Xadrez">                        
+                        <h3>Projeto Jogo de Xadrez</h3>
+                        <p>Projeto de um jogo de xadrez utilizando orientação a objetos com .Net C#, ele é jogado através do console do computador porém bem intuitivo.</p>
+                        <a href="https://github.com/MarlonLacerda0/JogoXadrez" target="_blank" class="project-link">Ver Projeto</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="./imagens/projetoContatos.PNG" alt="Projeto Sistema de Cadastro de Contatos">
+                        <h3>Projeto Sistema de Cadastro de Contatos</h3>
+                        <p>Projeto em produção... trata-se de um sistema de cadastro de contatos web com ASP.NET</p>
+                        <a href="https://github.com/MarlonLacerda0/SistemaCadastroDeContatos" target="_blank" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Contatos</h2>
+                <p>Para qualquer dúvida ou proposta, sinta-se à vontade para <a href="mailto:seu-email@exemplo.com">me enviar um e-mail </a>ou entre em contato em alguma das minhas redes sociais.</p>
+                <p>Fique à vontade para me seguir nas redes sociais:</p>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/marlon-lacerda-277a1b241/" target="_blank" class="social-button linkedin">
+                        <img src="./imagens/likedin.png" alt="LinkedIn" class="social-icon"> LinkedIn
+                    </a>
+                    <a href="https://github.com/MarlonLacerda0" target="_blank" class="social-button github">
+                        <img src="./imagens/github.png" alt="GitHub" class="social-icon"> GitHub
+                    </a>
+                    <a href="https://www.instagram.com/_marlonlacerda/" target="_blank" class="social-button instagram">
+                        <img src="./imagens/insta.png" alt="Instagram" class="social-icon"> Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="container">
             <p>&copy; 2024 Marlon Lacerda. Todos os direitos reservados.</p>            
