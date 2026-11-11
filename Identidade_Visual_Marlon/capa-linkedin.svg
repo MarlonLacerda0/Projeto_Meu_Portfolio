@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-labelledby="title desc">
+  <title id="title">Capa de LinkedIn — Marlon Lacerda</title>
+  <desc id="desc">Fundo azul escuro com nome, áreas de atuação e endereço do GitHub.</desc>
+  <rect width="1584" height="396" fill="#111d2c"/>
+  <circle cx="1490" cy="-70" r="340" fill="none" stroke="#465fe4" stroke-width="72" opacity=".28"/>
+  <circle cx="1490" cy="-70" r="215" fill="none" stroke="#d8f17b" stroke-width="2" opacity=".4"/>
+  <path d="M510 82h50" stroke="#d8f17b" stroke-width="5"/>
+  <text x="510" y="145" fill="#f7f7f2" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="54" letter-spacing="-2">Marlon Lacerda<tspan fill="#d8f17b">.</tspan></text>
+  <text x="512" y="195" fill="#d8f17b" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">DESENVOLVIMENTO · SISTEMAS · IA</text>
+  <text x="512" y="242" fill="#d1d9e2" font-family="Arial, sans-serif" font-size="22">C# / .NET  ·  Análise de sistemas  ·  IA generativa</text>
+  <text x="512" y="323" fill="#f7f7f2" font-family="Arial, sans-serif" font-size="18">github.com/MarlonLacerda0</text>
+</svg>
