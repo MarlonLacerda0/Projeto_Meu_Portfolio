@@ -2,7 +2,7 @@
 
 Portfólio pessoal que apresenta minha trajetória, conhecimentos e projetos em desenvolvimento de software. Reúne experiências com aplicações .NET, análise de sistemas e desenvolvimento assistido por inteligência artificial.
 
-**Acesse:** [marlonlacerda0.github.io/portfolio](https://marlonlacerda0.github.io/Projeto_Meu_Portfolio/)
+**Acesse:** [marlonlacerda0.github.io/Projeto_Meu_Portfolio](https://marlonlacerda0.github.io/Projeto_Meu_Portfolio/)
 
 ## Projetos em destaque
 
